@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>YetiSports2</title>
+    <style>
+        
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+        #button1{
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        top: 650px;
+        left: 400px;}
+        #button2{
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        top: 650px;
+        left: 800px;}
+        #button3{
+            position:absolute;
+            width: 300px;
+            height: 50px;
+            top:300px;
+            left: 1200px;
+        }
+        #button4{
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            top:400px;
+            left: 1200px;
+        }
+        #table{
+            position: absolute;
+            width: 500px;
+            height: 400px;
+            top: 75px;
+            left: 1200px;
+        }
+        #score{
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        top: 75px;
+        left: 400px; 
+        }
+        #rules{
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+        html {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'rules'>
+        Игра не совсем клон YetiSports2, <p></p>
+        Мне захотелось создать что-то свое,<p></p> но с похожей механикой
+        <p></p>
+        
+        <p></p>Управление:<p></p>
+        Наведение: мышкой <p></p>
+        Стрельба: любой клавишей<p></p>
+        Игра начинается через 3 секунды после<p></p> нажатия на кнопку Start!
+        <p></p>
+        Удачной Игры!
+    </div>
+    <h1 id ="score">Score</h1>
+    <h2 id = "table"></h2>
+    <button id = "button2">Restart</button>
+    <button id = 'button1' align="center">Start</button>
+    <button id = 'button3'>Records</button>
+    <button id = 'button4'>Reset your record</button>
+
+    <canvas id='canvas' width="840px" height="600px"></canvas>
+
+<script src = "js/main.js">
+</script>
+
+</body>
+</html>
